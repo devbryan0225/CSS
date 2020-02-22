@@ -1,0 +1,45 @@
+html {
+	height: 100vh;
+}
+
+body {
+	text-align: center;
+	vertical-align: middle;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	height: 40vh;
+	margin:auto;
+	position:relative;
+}
+
+button {
+	min-height:200px;
+	min-width:400px;
+	position:absolute;
+	left: 50%;
+	margin-left: -200px;
+	top:50%;
+	margin-top:-100px;
+	
+	background-color: white;
+    text-decoration: none;
+    border: solid lightgrey 1px;
+    border-radius: 5px;
+	
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+	font-size: 30pt;
+}
+
+	button:active {
+		box-shadow: none;
+		font-size:28pt;
+	}
+	
+	button:focus {		
+		outline:none;
+	}
